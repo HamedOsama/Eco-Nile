@@ -24,32 +24,32 @@ html(lang="en")
             .container 
                 .heading
                     h2 Our Mission
-                    p Our mission is to conserve nature
+                    //- p Our mission is to conserve nature
                 .boxes 
                     .box 
                         .top 
                             <i class="fa-solid fa-carrot fa-3x"></i>
-                            h3 Food
+                            h3 Clearer Water
                         .bottom 
-                            p We supply food to regions struggling from hunger
+                            p We provide citizens and farmers with pure drinking water and agricultural water by removing all plastic wastes from nile river
                     .box 
                         .top 
                             <i class="fa-solid fa-carrot fa-3x"></i>
                             h3 Food
                         .bottom 
-                            p We supply food to regions struggling from hunger
+                            p fruits and vegetables are now planted with clear and pure water free of any unwanted chemicals.
                     .box 
                         .top 
                             <i class="fa-solid fa-carrot fa-3x"></i>
-                            h3 Food
+                            h3 Volunteer
                         .bottom 
-                            p We supply food to regions struggling from hunger
+                            p want to volunteer in collecting plastic and saving your environment? our door is open
                     .box 
                         .top 
                             <i class="fa-solid fa-carrot fa-3x"></i>
-                            h3 Food
+                            h3 Hiring
                         .bottom 
-                            p We supply food to regions struggling from hunger
+                            p looking for a job in any of the following fields  (accounting, chemical testing, chemical engineering, sales)
                     .box 
                         .top 
                             <i class="fa-solid fa-carrot fa-3x"></i>
@@ -158,4 +158,37 @@ html(lang="en")
                     //- span: <i class="fas fa-arrow-right" id="rightArrow"></i>
                     span#leftArrow: <i class="fas fa-arrow-left"></i>
                     span#rightArrow: <i class="fas fa-arrow-right"></i>
+        .contact 
+            .text 
+                h2 Contact Us
+                p Contact our representatives for more details concerning the waste management services we provide.
+            .container 
+                .left 
+                    .phone.box
+                        .top 
+                            <i class="fa-solid fa-phone fa-1.5x"></i>
+                            h3 Phone
+                        .bottom 
+                            p: a(href="tel:01022226494") 0102-222-6494
+                    .email.box 
+                        .top 
+                            <i class="fa-solid fa-envelope fa-1.5x"></i>
+                            h3 E-mail
+                        .bottom 
+                            p: a(href="mailto:hamedosama19@mail.com?subject=Contact") hamedosama19@gmail.com
+                    .location.box
+                        .top 
+                            <i class="fa-solid fa-location-dot fa-1.5x"></i>
+                            h3 Location
+                        .bottom 
+                            p 4801 South University Drive,Suite 237, Ft. Lauderdale
+                .right 
+                    form(action="", method="post",class="contact-us")
+                        input(type="text" , placeholder = "Enter Your Name *" id="name")
+                        input(type="text" , placeholder = "Enter Your E-mail *" id="email")
+                        input(type="text" , placeholder = "Enter Your Phone " id="phone")
+                        input(type="text" , placeholder = "Message *" id="message")
+                        button.btn(type='submit') Send
+
+
         script(src="./main.js") 
